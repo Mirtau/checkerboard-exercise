@@ -8,9 +8,9 @@ for (var i = 0; i < 81; i++) {
   tile.style.paddingBottom = '11.1%';
 
   if (i % 2 === 0) {
-    tile.style.background = 'color';
+    tile.style.background = 'red';
   } else {
-    tile.style.background = 'color';
+    tile.style.background = 'black';
   }
 
   body.appendChild(tile);
